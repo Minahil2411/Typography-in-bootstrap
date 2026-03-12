@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>
+         Bootstrap Typography
+     </title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    </head>
+    <style>
+      #bdy{
+        background-color:rgb(223, 159, 159);
+      }
+      h1{
+        color:azure;
+      }
+      .lead{
+          color:aliceblue;
+      }
+      .fw-bold{
+         color:antiquewhite;
+      }
+      .fst-italic{
+         color:blanchedalmond;
+      }
+      #pr{
+        color:aliceblue;
+      }
+    </style>
+    <body id="bdy">
+      <div class="container">
+     <h1>
+         Typography
+     </h1>
+
+     <p id="pr">This is a normal paragraph using Bootstrap typography.</p>
+
+     <p class="lead">This is a lead paragraph. It looks bigger and important.</p>
+
+     <p class="text-muted">This text looks muted.</p>
+
+     <b class="fw-bold">This text is bold.</b><br><br>
+
+     <i class="fst-italic">This text is italic.</i>
+      <h1>Computer</h1> is an <mark>electronic device</mark> that processes data and gives output. 
+     A computer follows instructions written in a <pre>programming language</pre>. 
+      For example, a simple print command in <code>Python</code> can display text on the screen. 
+     The term <abbr title="Central Processing Unit">CPU</abbr> is called the brain of the computer. 
+     Many experts say: <blockquote>Computers make work faster and more accurate.</blockquote>
+     </div>
+  </body>
+</html>
